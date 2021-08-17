@@ -7,5 +7,5 @@ This repo contains example apps that utilize rust to program embedded systems.
 
 ## Helpful commands
 - setup opencd link(in ~/embedded/tmp): `sudo openocd -f interface/stlink-v2-1.cfg -f target/stm32f3x.cfg`
-- setup itmdump(~/embedded/tmp): ~/.cargo/bin/itmdump -F -f itm.txt
-- setup minicom: sudo minicom -D /dev/ttyACM0 -b 115200
+- setup itmdump(~/embedded/tmp): `~/.cargo/bin/itmdump -F -f itm.txt`
+- setup minicom: `sudo minicom -D /dev/ttyACM0 -b 115200`
